@@ -31,14 +31,20 @@
     .pillrow { display:flex; flex-wrap:wrap; gap:8px; }
     .pill { border:1px solid var(--line); border-radius:999px; padding:6px 10px; font-size:13px; color:var(--muted); }
 
-    section.photo { padding: 10px; }
-    section.photo img{
-      display:block;
-      width:100%;
-      height:auto;    
-      object-fit: contain;
-      border-radius: 10px;
-    }
+section.photo{
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+}
+
+section.photo img{
+  width: 100%;
+  max-width: 220px;   
+  height: auto;      
+  object-fit: contain;
+  border-radius: 10px;
+}
+
   </style>
 </head>
 
