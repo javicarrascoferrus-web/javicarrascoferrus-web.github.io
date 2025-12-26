@@ -1,1 +1,1 @@
-Link para ver CV: https://javicarrascoferrus-web.github.io/
+CV: https://javicarrascoferrus-web.github.io/
